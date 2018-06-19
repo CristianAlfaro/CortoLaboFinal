@@ -33,6 +33,7 @@ public class GUI extends JFrame{
     private JTextField jTextField2;
     private JTextField jTextField3;
     private JTextField jTextField4;
+    private JTable jTable;
     
     public GUI(){
         super("Concurso canino");
@@ -94,6 +95,10 @@ public class GUI extends JFrame{
         
         
         jButton1.setBounds(400, 20, 100, 20);
+        jButton2.setBounds(20, 180, 100, 20);
+        jButton3.setBounds(130, 180, 100, 20);
+        jButton4.setBounds(240, 180, 100, 20);
+        jButton5.setBounds(350, 180, 100, 20);
         
         jLabel1.setBounds(20, 20, 100, 20);
         jLabel2.setBounds(20, 50, 100, 20);
@@ -105,7 +110,7 @@ public class GUI extends JFrame{
         jTextField1.setBounds(125, 20, 250, 20);
         jTextField2.setBounds(75, 50, 300, 20);
         jTextField3.setBounds(500, 50, 190, 20);
-        jTextField3.setBounds(75, 80, 100, 20);
+        jTextField4.setBounds(75, 80, 100, 20);
         
         Raza.setBounds(75, 110, 150, 20);
         
@@ -130,7 +135,7 @@ public class GUI extends JFrame{
         container.add(jRadioButton1);
         container.add(jRadioButton2);
         
-        setSize(750,650);
+        setSize(740,500);
 
 
     }
